@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-02-01"
+lastupdated: "2018-05-07"
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,7 +12,7 @@ lastupdated: "2018-02-01"
 The following steps outline how to connect to the Hardware Security Module (HSM) VPN to your customer account. You can also connect from a server on your account that has connectivity to the private VLAN on which the HSM has been provisioned. 
 {:shortdesc}
 
-1. Connect with 'ssh' to the HSM through the VPN or to a server located on the same private VLAN.
+1. Log in to your HSM using the user id and password provided on *Device Details* through your VPN or to a server located on the same private VLAN.
 ![Architecture of a network with the HSM](/images/Connecting_to_HSM-01.png "HSM Architecture")
 
 `#ssh customer_admin@10.1.1.101`

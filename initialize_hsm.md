@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-02-01"
+lastupdated: "2018-05-07"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,6 +9,7 @@ lastupdated: "2018-02-01"
 
 # Initializing the IBM Cloud HSM
 
+The first initialiation of your HSM is completed as part of the provisioning process, but you might need to reinitialize it in the future. 
 The following steps outline how to initialize Hardware Security Modules (HSMs) 
 {:shortdesc}
 
