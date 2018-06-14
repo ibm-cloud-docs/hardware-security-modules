@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-07"
+lastupdated: "2018-06-13"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,8 +9,7 @@ lastupdated: "2018-05-07"
 
 # Initializing the IBM Cloud HSM
 
-The first initialiation of your HSM is completed as part of the provisioning process, but you might need to reinitialize it in the future. 
-The following steps outline how to initialize Hardware Security Modules (HSMs) 
+After you have access to the Hardware Security Module (HSM), you must initialize the HSM. You might also need to reinitialize it in the future. To initialize the HSM, complete the following steps. 
 {:shortdesc}
 
 1. Initialize the HSM [myLuna] lusash:.hsm init -label Customer1Prod'.
