@@ -1,0 +1,27 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="hardware-security-modules" audience="compute" href=“/docs/hardware-security-modules/index.html”}
+HSM (hardware security module) di IBM Cloud 
+
+    {: .navgroup id="learn"}
+    index.md
+    about.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="howto"}
+    connecting_to_hsm.md
+    initialize_hsm.md
+    creating_hsm_partitions.md
+    manage_hsm.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    hsmfaq.md 
+    {: .navgroup-end}
+        
+     
+        
+ 
+    
+ 
