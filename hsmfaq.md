@@ -1,13 +1,13 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-08-18"
+  years: 2014, 2018
+lastupdated: "2018-11-16"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# IBM Cloud HSM FAQs
+# FAQs: IBM Cloud HSM
 The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant encryption, key management, and storage "as a service" using Hardware Security Modules (HSMs).
 {:shortdesc}
 

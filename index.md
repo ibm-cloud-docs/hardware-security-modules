@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-08-18"
+  years: 2014, 2018
+lastupdated: "2018-05-07"
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,5 +18,4 @@ The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant e
 Complete these steps to get started with {{site.data.keyword.cloud}} HSM:
 1. Learn [about HSM](about.html).
 2. [Connecting to an IBM Cloud HSM](connecting_to_hsm.html).
-
 

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2018
+lastupdated: "2018-11-16"
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +24,7 @@ The following steps outline how to connect to the Hardware Security Module (HSM)
 Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
-Ener same passpharase again:
+Enter same passphrase again:
 Your identification has been saved in /root/.ssh/id_rsa.
 Your public key has been saved in /root/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -71,4 +71,4 @@ root@host ssh-rsa 1024
 6e:7a:73:e1:2a:54:8f:99:3e:6a:56:f8:38:22:fb:a6
 Command Result : 0 (Success)
 ```
-9. Check that the fingerprint reported matches the fingerpring originally generated on the connecting host.
+9. Check that the fingerprint reported matches the fingerprint originally generated on the connecting host.
