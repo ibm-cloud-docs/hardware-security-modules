@@ -16,6 +16,6 @@ The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant e
 {{site.data.keyword.cloud_notm}} HSM 6.0 is FIPS 140-2 Level 2 certified for PKI, digital signatures, and cryptographic key storage. 
 
 Complete these steps to get started with {{site.data.keyword.cloud}} HSM:
-1. Learn [about HSM](/docs/infrastructure/hardware-security-modules/about.html).
-2. [Connecting to an IBM Cloud HSM](/docs/infrastructure/hardware-security-modules/connecting_to_hsm.html).
+1. Learn [about HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm).
+2. [Connecting to an IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm).
 
