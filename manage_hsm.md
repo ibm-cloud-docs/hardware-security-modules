@@ -2,6 +2,8 @@
 copyright:
   years: 2018
 lastupdated: "2018-11-16"
+
+subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
