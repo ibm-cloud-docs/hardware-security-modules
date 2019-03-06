@@ -1,9 +1,13 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-06-13"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, initializing HSM
 
 subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,10 +15,10 @@ subcollection: hardware-security-modules
 
 # Initializing the IBM Cloud HSM
 
-After you have access to the Hardware Security Module (HSM), you must initialize the HSM. You might also need to reinitialize it in the future. To initialize the HSM, complete the following steps. 
+After you have access to the Hardware Security Module (HSM), you must initialize the HSM. You might also need to reinitialize it in the future. To initialize the HSM, complete the following steps.
 {:shortdesc}
 
-1. Initialize the HSM [myLuna] lusash:.hsm init -label Customer1Prod'.
+1. Initialize the HSM `[myLuna] lusash:.hsm init -label Customer1Prod`.
 ```
 Please enter a password for the HSM Administrator:
 >**************
@@ -29,3 +33,5 @@ Type proceed to initialize the HSM, or type quite to quit now.
 hsm init successful.
 Command Result : 0 (Success)
 ```
+
+Refer to the [LunaSH Command Reference Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://public.dhe.ibm.com/cloud/bluemix/network/vpx/lunash_command_reference_guide.pdf){: new_window} for all available commands supported in the HSM CLI.

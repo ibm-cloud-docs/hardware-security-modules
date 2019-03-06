@@ -1,9 +1,13 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-11-16"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, partitions, labels
 
 subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +15,7 @@ subcollection: hardware-security-modules
 
 # Creating IBM Cloud HSM partitions
 
-Within an {{site.data.keyword.cloud}} Hardware Security Module (HSM), separate cryptographic workspaces must be initialized and designated for clients. A workspace, or *partition*, and all its contents are protected by encryption derived from its authentication. Only a client that presents the proper authentication is allowed to see the partition and work with its contents. 
+Within an {{site.data.keyword.cloud}} Hardware Security Module (HSM), separate cryptographic workspaces must be initialized and designated for clients. A workspace, or *partition*, and all its contents are protected by encryption derived from its authentication. Only a client that presents the proper authentication is allowed to see the partition and work with its contents.
 {:shortdesc}
 
 When creating your partitions, be aware that partition names, also known as labels, must be unique in the HSM. You cannot create two partitions with the same label on one HSM. What you name your partition is the label that is seen by Public-Key Cryptographic Standards (PKCS) #11 applications.
