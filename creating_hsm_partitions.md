@@ -14,6 +14,7 @@ subcollection: hardware-security-modules
 {:new_window: target="_blank"}
 
 # Creating IBM Cloud HSM partitions
+{: #creating-ibm-cloud-hsm-partitions}
 
 Within an {{site.data.keyword.cloud}} Hardware Security Module (HSM), separate cryptographic workspaces must be initialized and designated for clients. A workspace, or *partition*, and all its contents are protected by encryption derived from its authentication. Only a client that presents the proper authentication is allowed to see the partition and work with its contents.
 {:shortdesc}
