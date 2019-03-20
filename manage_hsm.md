@@ -15,6 +15,7 @@ subcollection: hardware-security-modules
 {:note: .note}
 
 # Managing your IBM Cloud HSM
+{: #managing-your-ibm-cloud-hsm}
 
 From the Device List, you can manage your {{site.data.keyword.cloud}} Hardware Security Module (HSM), virtual servers, and bare metal servers.
 {:shortdesc}
