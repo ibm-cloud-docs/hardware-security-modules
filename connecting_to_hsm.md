@@ -14,6 +14,7 @@ subcollection: hardware-security-modules
 {:new_window: target="_blank"}
 
 # Connecting to IBM Cloud HSM
+{: #connecting-to-ibm-cloud-hsm}
 
 The following steps outline how to connect the Hardware Security Module (HSM) VPN to your customer account. You can also connect from a server on your account that has connectivity to the private VLAN on which the HSM has been provisioned.
 {:shortdesc}
