@@ -11,6 +11,7 @@ subcollection: hardware-security-modules
 {:faq: data-hd-content-type='faq'}
 
 # FAQs: IBM Cloud HSM
+{: #faqs-ibm-cloud-hsm}
 
 The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant encryption, key management, and storage "as a service" using Hardware Security Modules (HSMs).
 {:shortdesc}
