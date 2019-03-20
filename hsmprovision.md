@@ -14,6 +14,7 @@ subcollection: hardware-security-modules
 {:new_window: target="_blank"}
 
 # Provisioning IBM Cloud HSM
+{: #provisioning-ibm-cloud-hsm}
 
 To provision your {{site.data.keyword.cloud}} HSM through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 {:shortdesc}
