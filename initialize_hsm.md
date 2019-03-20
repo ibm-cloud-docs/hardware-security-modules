@@ -14,6 +14,7 @@ subcollection: hardware-security-modules
 {:new_window: target="_blank"}
 
 # Initializing the IBM Cloud HSM
+{: #initializing-the-ibm-cloud-hsm}
 
 After you have access to the Hardware Security Module (HSM), you must initialize the HSM. You might also need to reinitialize it in the future. To initialize the HSM, complete the following steps.
 {:shortdesc}
