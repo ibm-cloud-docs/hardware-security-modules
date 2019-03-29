@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-03-04"
 
-keywords: hardware security modules, HSM
+keywords: hardware security modules, HSM, keys,
 
 subcollection: hardware-security-modules
 
@@ -27,12 +27,14 @@ Complete the following steps to perform management tasks for your virtual server
 3. Click **Actions** for the device you want to manage and select the wanted management task.
 
 ## Deleting the server instance
+{: #deleting-the-server-instance}
 
 At any time, you can delete your hardware security module if you no longer need the instance and don't want to be charged.
 
 To delete the HSM, go to the menu and select **Cancel**.
 
 ## Powering off an HSM
+{: #powering-off-an-hsm}
 
 To power off the HSM, go to the menu and select Power On/Off. While the HSM is powered off, you are still billed.
 

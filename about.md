@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-03-07"
 
-keywords: hardware security modules, HSM, single-tenant encryption, key management, Gemalto SafeNet Luna, FIPS certified
+keywords: hardware security modules, HSM, single-tenant encryption, key management, Gemalto SafeNet Luna, FIPS certified, cryptographic, keys,
 
 subcollection: hardware-security-modules
 
@@ -12,9 +12,10 @@ subcollection: hardware-security-modules
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:note .note}
 
 # About IBM Cloud HSM
-{: #about-ibm-cloud-hsm}
+{: #about_ibm_cloud_hsm}
 
 The {{site.data.keyword.cloud}} HSM "as a service" offering provides dedicated, single-tenant encryption, key management, and storage using Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.  
 {:shortdesc}
@@ -24,6 +25,9 @@ The {{site.data.keyword.cloud}} HSM "as a service" offering provides dedicated, 
 Based on Gemalto SafeNet Luna a750, {{site.data.keyword.cloud_notm}} HSM 7.0 is FIPS 140-2 Level 3 certified. With it, you can solve complex security, compliance, data sovereignty, and control challenges associated with migrating and running workloads on the cloud.
 
 Based on Gemalto SafeNet Luna SA 7000, {{site.data.keyword.cloud_notm}} HSM 6.0 is FIPS 140-2 Level 2 certified for PKI, digital signatures, and cryptographic key storage.
+
+Supported operating systems include AIX, Linux, Oracle Solaris, and Microsoft Windows.
+{: note}
 
 Benefits of the offering include
 

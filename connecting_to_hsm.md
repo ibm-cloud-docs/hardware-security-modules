@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-03-04"
 
-keywords: hardware security modules, HSM
+keywords: hardware security modules, HSM, keys, rsa,
 
 subcollection: hardware-security-modules
 

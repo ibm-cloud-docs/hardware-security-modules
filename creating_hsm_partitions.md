@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-03-07"
 
-keywords: hardware security modules, HSM, partitions, labels
+keywords: hardware security modules, HSM, partitions, labels, cryptographic, keys,
 
 subcollection: hardware-security-modules
 
