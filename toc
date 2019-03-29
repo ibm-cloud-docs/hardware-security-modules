@@ -7,7 +7,7 @@ IBM Cloud Hardware Security Modules
     {: .navgroup id="learn"}
     index.md
     about.md
-    <!-- hsmroles.md -->
+    hsmroles.md 
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -15,12 +15,11 @@ IBM Cloud Hardware Security Modules
     initialize_hsm.md
     connecting_to_hsm.md
     creating_hsm_partitions.md
-    <!-- installinghsm.md -->
+    installinghsm.md 
     manage_hsm.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     [Getting help and support](/bare-metal/bare-metal-gettinghelp#gettinghelp)
-    sap-support.md
-<!-- hsmfaq.md -->
+    hsmfaq.md 
     {: .navgroup-end}
