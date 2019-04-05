@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-04-05"
 
 keywords: hardware security modules, HSM, frequently asked questions, FAQs, cryptographic, symmetrical, keys, secrets
 
@@ -119,4 +119,4 @@ Yes, to configure high availability across partitions of the {{site.data.keyword
 ## How can I back up my {{site.data.keyword.cloud_notm}} HSM configuration?
 {: #how-can-i-back-up-my-ibm-cloud-hsm-configuration}
 {: faq}
-To backup your {{site.data.keyword.cloud_notm}} HSM configuration, see chapter 6 of the [Appliance Administration Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://public.dhe.ibm.com/cloud/bluemix/network/vpx/appliance_administration_guide.pdf){: new_window} (page 66).
+To backup your {{site.data.keyword.cloud_notm}} HSM configuration, see chapter 6 of the [Appliance Administration Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/hsm/Appliance_Administration_Guide_72.pdf){: new_window} (page 66).
