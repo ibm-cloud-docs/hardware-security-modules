@@ -1,22 +1,32 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, keys, rsa,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Verbindung zu IBM Cloud HSM herstellen
+{: #connecting-to-ibm-cloud-hsm}
 
-In den folgenden Schritten wird das Herstellen einer HSM-VPN-Verbindung für das Kundenkonto beschrieben. Es ist ebenfalls möglich, eine Verbindung von einem Server in Ihrem Konto aus herzustellen, der über Konnektivität zu dem privaten VLAN verfügt, in dem das HSM bereitgestellt wurde.
+In den folgenden Schritten wird das Herstellen einer HSM-VPN-Verbindung zum Kundenkonto beschrieben. Es ist ebenfalls möglich, eine Verbindung von einem Server in Ihrem Konto aus herzustellen, der über Konnektivität zu dem privaten VLAN verfügt, in dem das HSM bereitgestellt wurde.
 {:shortdesc}
 
-1. Melden Sie sich beim HSM mit der Benutzer-ID und dem Kennwort, die unter *Gerätedetails* angegeben sind, über Ihr VPN an oder melden Sie sich bei einem Server an, der sich im selben privaten VLAN befindet.
+![Architektur eines Netzes im HSM](/images/Connecting_to_HSM-01.png "HSM-Architektur")
 
+1. Melden Sie sich beim HSM mit der Benutzer-ID und dem Kennwort, die unter *Gerätedetails* angegeben sind, über Ihr VPN an oder melden Sie sich bei einem Server an, der sich im selben privaten VLAN befindet.
 `#ssh customer_admin@10.1.1.101`
-2. Ändern Sie das HSM-Kennwort für 'customer_admin':
+
+2. Ändern Sie das HSM-Kennwort für `customer_admin`:
 `#user password`
+
 3. Aktivieren Sie die PKI-basierte Authentifizierung (PKI = Public Key Infrastructure):
 ```
 #ssh-keygen -b 2048 -t rsa
@@ -45,14 +55,14 @@ Kennwortauthentifizierung ist aktiviert.
 Authentifizierung über öffentlichen Schlüssel ist aktiviert.
 Befehlsergebnis: 0 (Erfolg)
 ```
+
 6. Stellen Sie sicher, dass standardmäßig keine Einträge für öffentliche Schlüssel vorhanden sind.
 ```
 [myLuna]
 lunash:>sysconf -ssh publickey list
 Öffentliche SSH-Schlüssel für Benutzer 'admin':
 Name Typ Bit Fingerabdruck
---------------------------------------------------------------------
-Befehlsergebnis: 0 (Erfolg)
+Befehlsergebnis : 0 (Erfolg)
 ```
 7. Fügen Sie den gesendeten öffentlichen Schlüssel zur Appliance hinzu.
 ```
@@ -65,7 +75,6 @@ Befehlsergebnis: 0 (Erfolg)
 [myLuna] lunash:>sysconf - ssh publickey list
 Öffentliche SSH-Schlüssel für Benutzer 'admin':
 Name Typ Bit Fingerabdruck
---------------------------------------------------------------------
 root@host ssh-rsa 1024
 6e:7a:73:e1:2a:54:8f:99:3e:6a:56:f8:38:22:fb:a6
 Befehlsergebnis: 0 (Erfolg)
