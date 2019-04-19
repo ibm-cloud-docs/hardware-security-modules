@@ -1,18 +1,25 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-06-13"
+  years: 2014, 2019
+lastupdated: "2019-04-05"
+
+keywords: hardware security modules, HSM, initializing HSM
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # IBM Cloud HSM の初期化
+{: #initializing-the-ibm-cloud-hsm}
 
-Hardware Security Module (HSM) にアクセスした後に、HSM を初期化する必要があります。将来、再初期化する必要が生じることもあります。HSM を初期化するには、以下の手順を実行します。
+Hardware Security Module (HSM) にアクセスした後に、HSM を初期化する必要があります。 将来、再初期化する必要が生じることもあります。 HSM を初期化するには、以下の手順を実行します。
 {:shortdesc}
 
-1. HSM を [myLuna] lusash:.hsm init -label Customer1Prod' で初期化します。
+1. HSM を初期化します。`[myLuna] lusash:.hsm init -label Customer1Prod`
 ```
 Please enter a password for the HSM Administrator:
 >**************
@@ -27,3 +34,5 @@ Type proceed to initialize the HSM, or type quite to quit now.
 hsm init successful.
 Command Result : 0 (Success)
 ```
+
+HSM CLI でサポートされるすべての使用可能なコマンドについては、[「LunaSH Command Reference Guide」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](ftp://public.dhe.ibm.com/cloud/bluemix/hsm/LunaSH_Command_Reference_Guide_72.pdf){: new_window}を参照してください。
