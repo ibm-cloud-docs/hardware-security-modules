@@ -1,29 +1,38 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, keys, rsa,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 連接至 IBM Cloud HSM
+{: #connecting-to-ibm-cloud-hsm}
 
-下列步驟概述如何將「硬體安全模組 (HSM)」VPN 連接至您的客戶帳號。您也可以從帳戶上具有連線功能的伺服器，連接至其中已佈建 HSM 的專用 VLAN。
+下列步驟概述如何將 Hardware Security Module (HSM) VPN 連接至您的客戶帳號。您也可以從帳戶上具有連線功能的伺服器，連接至其中已佈建 HSM 的專用 VLAN。
 {:shortdesc}
 
-1. 使用*裝置詳細資料* 上提供的使用者 ID 和密碼透過 VPN 登入 HSM，或登入位於相同專用 VLAN 的伺服器。
+![含有 HSM 的網路架構](/images/Connecting_to_HSM-01.png "HSM 架構")
 
-`#ssh customer_admin@10.1.1.101`
-2. 變更 HSM 'customer_admin' 密碼：
+1. 使用*裝置詳細資料* 上提供的使用者 ID 和密碼透過 VPN 登入 HSM，或登入位於相同專用 VLAN 的伺服器。`#ssh customer_admin@10.1.1.101`
+
+2. 變更 HSM `customer_admin` 密碼：
 `#user password`
+
 3. 啟用公開金鑰基礎架構 (PKI) 型鑑別：
 ```
 #ssh-keygen -b 2048 -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
-Ener same passpharase again:
+Enter same passphrase again:
 Your identification has been saved in /root/.ssh/id_rsa.
 Your public key has been saved in /root/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -45,13 +54,13 @@ Password authentication is enabled
 Public key authentication is enabled
 Command Result : 0 (Success)
 ```
+
 6. 驗證預設情況下沒有任何公開金鑰項目。
 ```
 [myLuna]
 lunash:>sysconf -ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 Command Result : 0 (Success)
 ```
 7. 新增已傳送至應用裝置的公開金鑰。
@@ -65,7 +74,6 @@ Command Result : 0 (Success)
 [myLuna] lunash:>sysconf - ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 root@host ssh-rsa 1024
 6e:7a:73:e1:2a:54:8f:99:3e:6a:56:f8:38:22:fb:a6
 Command Result : 0 (Success)

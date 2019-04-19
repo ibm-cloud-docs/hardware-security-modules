@@ -1,27 +1,25 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hardware-security-modules" audience="compute" href=“/docs/hardware-security-modules/index.html”}
-IBM Cloud 硬體安全模組
+{: .toc subcollection="hardware-security-modules" audience="compute" href="docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-getting-started-with-ibm-cloud-hsm" path="infrastructure/hardware-security-modules"}
+IBM Cloud Hardware Security Module
 
     {: .navgroup id="learn"}
     index.md
     about.md
+    hsmroles.md 
     {: .navgroup-end}
-    
+
     {: .navgroup id="howto"}
-    connecting_to_hsm.md
+    hsmprovision.md
     initialize_hsm.md
+    connecting_to_hsm.md
     creating_hsm_partitions.md
+    installinghsm.md 
     manage_hsm.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="help"}
-    hsmfaq.md 
+    [取得協助及支援](/bare-metal/bare-metal-gettinghelp#gettinghelp)
+    hsmfaq.md
     {: .navgroup-end}
-        
-     
-        
- 
-    
- 
