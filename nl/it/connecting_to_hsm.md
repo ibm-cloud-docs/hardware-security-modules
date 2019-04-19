@@ -1,29 +1,39 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, keys, rsa,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Connessione a IBM Cloud HSM
+{: #connecting-to-ibm-cloud-hsm}
 
-La seguente procedura descrive come collegare la VPN HSM (Hardware Security Module) al tuo account cliente. Puoi collegarti anche da un server nel tuo account che dispone di connettività alla VLAN privata in cui è stato eseguito il provisioning dell'HSM.
+La seguente procedura descrive come connettere la VPN HSM (Hardware Security Module) al tuo account cliente. Puoi collegarti anche da un server nel tuo account che dispone di connettività alla VLAN privata in cui è stato eseguito il provisioning dell'HSM.
 {:shortdesc}
 
-1. Accedi al tuo HSM utilizzando l'ID utente e la password forniti in *Device Details* tramite la tua VPN o a un server ubicato nella stessa VLAN privata.
+![Architettura della rete con l'HSM](/images/Connecting_to_HSM-01.png "Architettura HSM")
 
+1. Accedi al tuo HSM utilizzando l'ID utente e la password forniti in *Device Details* tramite la tua VPN o a un server ubicato nella stessa VLAN privata.
 `#ssh customer_admin@10.1.1.101`
-2. Modifica la password HSM 'customer_admin':
+
+2. Modifica la password HSM `customer_admin`:
 `#user password`
+
 3. Abilita l'autenticazione basata sulla PKI (Public Key Infrastructure):
 ```
 #ssh-keygen -b 2048 -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
-Ener same passpharase again:
+Enter same passphrase again:
 Your identification has been saved in /root/.ssh/id_rsa.
 Your public key has been saved in /root/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -45,13 +55,13 @@ Password authentication is enabled
 Public key authentication is enabled
 Command Result : 0 (Success)
 ```
+
 6. Verifica che non ci siano voci della chiave pubblica predefinite.
 ```
 [myLuna]
 lunash:>sysconf -ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 Command Result : 0 (Success)
 ```
 7. Aggiungi la chiave pubblica che è stata inviata all'applicazione.
@@ -65,7 +75,6 @@ Command Result : 0 (Success)
 [myLuna] lunash:>sysconf - ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 root@host ssh-rsa 1024
 6e:7a:73:e1:2a:54:8f:99:3e:6a:56:f8:38:22:fb:a6
 Command Result : 0 (Success)

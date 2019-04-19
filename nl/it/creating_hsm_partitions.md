@@ -1,22 +1,29 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-07"
+
+keywords: hardware security modules, HSM, partitions, labels, cryptographic, keys,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Creazione delle partizioni di IBM Cloud HSM
+{: #creating-ibm-cloud-hsm-partitions}
 
-All'interno di un HSM (Hardware Security Module) {{site.data.keyword.cloud}}, devono essere avviati e progettati spazi di lavoro separati per i client. Uno spazio di lavoro o *partizione* e tutti i suoi contenuti sono protetti dalla codifica derivante dalla sua autenticazione. Solo a un client che presenta l'autenticazione appropriata viene consentito di visualizzare la partizione e di utilizzarne i contenuti.
+All'interno di un HSM (Hardware Security Module) {{site.data.keyword.cloud}}, devono essere avviati e progettati spazi di lavoro crittografici separati per i client. Uno spazio di lavoro o *partizione* e tutti i suoi contenuti sono protetti dalla codifica derivante dalla sua autenticazione. Solo a un client che presenta l'autenticazione appropriata viene consentito di visualizzare la partizione e di utilizzarne i contenuti.
 {:shortdesc}
 
 Quando crei le tue partizioni, assicurati che i nomi della partizione, conosciuti anche come etichette, devono essere univoci nell'HSM. Non puoi creare due partizioni con la stessa etichetta in un HSM. Il nome che fornisci alla tua partizione è l'etichetta visualizzata dalle applicazioni PKCS (Public-Key Cryptographic Standards) #11.
 
 1. Accedi come un amministratore HSM con la password utilizzata per avviare l'HSM.
 ```
-[myLuna] lusash:>hsm login
+[myLuna] lunash:>hsm login
 Please enter HSM Administrators' password:
 >**************
 hsm login successful.
