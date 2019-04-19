@@ -1,29 +1,39 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-04"
+
+keywords: hardware security modules, HSM, keys, rsa,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Connexion au module IBM Cloud HSM
+{: #connecting-to-ibm-cloud-hsm}
 
-Les étapes suivantes décrivent comment se connecter avec le réseau privé virtuel du module de sécurité matérielle (HSM) à votre compte client. Vous pouvez également vous connecter depuis un serveur sur votre compte disposant d'une connectivité au VLAN privé sur lequel le module a été implanté.
+La procédure suivante décrit comment connecter le réseau VPN du module de sécurité matérielle (HSM) à votre compte client. Vous pouvez également vous connecter depuis un serveur sur votre compte disposant d'une connectivité au VLAN privé sur lequel le module a été implanté.
 {:shortdesc}
 
-1. Connectez-vous à votre module HSM avec l'ID et le mot de passe indiqués sur *Device Details* via votre réseau privé ou à un serveur situé sur le même VLAN privé.
+![Architecture d'un réseau avec le module HSM](/images/Connecting_to_HSM-01.png "Architecture du module HSM")
 
+1. Connectez-vous à votre module HSM avec l'ID et le mot de passe indiqués sur *Device Details* via votre réseau privé ou à un serveur situé sur le même VLAN privé.
 `#ssh customer_admin@10.1.1.101`
-2. Modifiez le mot de passe 'customer_admin' du module HSM :
+
+2. Changez le mot de passe `customer_admin` du module HSM :
 `#user password`
+
 3. Activez l'authentification passée sur l'infrastructure à clés publiques (PKI) :
 ```
 #ssh-keygen -b 2048 -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
-Ener same passpharase again:
+Enter same passphrase again:
 Your identification has been saved in /root/.ssh/id_rsa.
 Your public key has been saved in /root/.ssh/id_rsa.pub.
 The key fingerprint is:
@@ -45,13 +55,13 @@ Password authentication is enabled
 Public key authentication is enabled
 Command Result : 0 (Success)
 ```
+
 6. Vérifiez qu'il n'existe aucune entrée de clé publique par défaut.
 ```
 [myLuna]
 lunash:>sysconf -ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 Command Result : 0 (Success)
 ```
 7. Ajoutez la clé publique envoyée au dispositif.
@@ -65,7 +75,6 @@ Command Result : 0 (Success)
 [myLuna] lunash:>sysconf - ssh publickey list
 SSH Public Keys for user 'admin':
 Name Type Bits Fingerprint
---------------------------------------------------------------------
 root@host ssh-rsa 1024
 6e:7a:73:e1:2a:54:8f:99:3e:6a:56:f8:38:22:fb:a6
 Command Result : 0 (Success)

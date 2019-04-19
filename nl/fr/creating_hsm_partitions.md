@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-07"
+  years: 2014, 2019
+lastupdated: "2019-03-07"
+
+keywords: hardware security modules, HSM, partitions, labels, cryptographic, keys,
+
+subcollection: hardware-security-modules
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Création de partitions IBM Cloud HSM
+{: #creating-ibm-cloud-hsm-partitions}
 
 Dans un module {{site.data.keyword.cloud}} HSM (Hardware Security Module), des espaces de travail cryptographiques distincts doivent être initialisés et désignés pour les clients. Un espace de travail, ou *partition*, et tout son contenu est protégé par un chiffrement dérivé de son authentification. Seul un client qui présente l'identification correcte est autorisé à voir la partition et à travailler sur son contenu.
 {:shortdesc}
@@ -16,7 +23,7 @@ Lors de la création de partitions, rappelez-vous que les noms de partition, ég
 
 1. Connectez-vous en tant qu'administrateur HSM avec le mot de passe utilisé pour l'initialisation de ce module.
 ```
-[myLuna] lusash:>hsm login
+[myLuna] lunash:>hsm login
 Please enter HSM Administrators' password:
 >**************
 hsm login successful.
