@@ -20,6 +20,6 @@ HSM (hardware security module) di IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Come ottenere aiuto e supporto](/bare-metal/bare-metal-gettinghelp#gettinghelp)
+    [Come ottenere aiuto e supporto](/vsi/virtual-servers-gettinghelp#gettinghelp)
     hsmfaq.md
     {: .navgroup-end}
