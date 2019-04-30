@@ -23,7 +23,7 @@ subcollection: hardware-security-modules
 * {{site.data.keyword.cloud_notm}} HSM 6.0은 PKI, 디지털 서명 및 암호화 키 스토리지에 대해 FIPS 140-2 레벨 2 인증을 받았습니다. 
 
 {{site.data.keyword.cloud}} HSM을 시작하려면 다음 단계를 완료하십시오.
-1. [HSM 정보](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm)에 대해 알아보십시오.
+1. [HSM 정보](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm)에 대해 알아보십시오.
 2. [IBM Cloud HSM 프로비저닝](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs).
 3. [IBM Cloud HSM 초기화](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm).
 4. [IBM Cloud HSM에 연결](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm).
