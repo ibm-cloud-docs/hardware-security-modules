@@ -24,7 +24,7 @@ A oferta {{site.data.keyword.cloud}} HSM fornece um sistema de processamento cri
 * O {{site.data.keyword.cloud_notm}} HSM 6.0 é validado pelo FIPS 140-2 Nível 2 para PKI, assinaturas digitais e armazenamento de chave criptográfica.
 
 Conclua essas etapas para começar a usar o {{site.data.keyword.cloud}} HSM:
-1. Aprenda  [ sobre o HSM ](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm).
+1. Aprenda  [ sobre o HSM ](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm).
 2. [Provisionar um IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs).
 3. [Inicializar um IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm).
 4. [Conectar um IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm).
