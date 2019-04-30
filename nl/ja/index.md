@@ -24,7 +24,7 @@ subcollection: hardware-security-modules
 * {{site.data.keyword.cloud_notm}} HSM 6.0 は FIPS 140-2 レベル 2 認定サービスであり、PKI、デジタル署名、暗号鍵保管に使用できます。
 
 {{site.data.keyword.cloud}} HSM の使用を開始するには、以下の手順を実行します。
-1. [HSM について](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm)を学習します。
+1. [HSM について](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm)を学習します。
 2. [IBM Cloud をプロビジョンします](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs)。
 3. [IBM Cloud HSM を初期化します](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm)。
 4. [IBM Cloud HSM に接続します](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm)。
