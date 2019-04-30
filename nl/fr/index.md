@@ -25,7 +25,7 @@ IBM Cloud HSM est un dispositif centralisé fiable permettant d'effectuer des tr
 * {{site.data.keyword.cloud_notm}} HSM 6.0 dispose d'une validation FIPS 140-2 Level 2 pour PKI, les signatures numériques et le stockage de clé cryptographique.
 
 Suivez les procédures ci-dessous pour effectuer vos premiers pas avec {{site.data.keyword.cloud}} HSM :
-1. Découverte du [module HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm).
+1. Découverte du [module HSM](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm).
 2. [Mise à disposition d'un module IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs).
 3. [Initialisation d'un module IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm).
 4. [Connexion à un module IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm).
