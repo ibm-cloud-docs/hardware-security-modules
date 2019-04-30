@@ -24,7 +24,7 @@ L'offerta {{site.data.keyword.cloud}} HSM ti fornisce un sistema di elaborazione
 * {{site.data.keyword.cloud_notm}} HSM 6.0 è convalidato FIPS 140-2 Level 2 per la PKI, le firme digitali e l'archiviazione della chiave crittografica.
 
 Completa questa procedura per un'introduzione a {{site.data.keyword.cloud}} HSM:
-1. Ulteriori informazioni [su HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm).
+1. Ulteriori informazioni [su HSM](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm).
 2. [Provisioning di un IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs).
 3. [Inizializza un IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm).
 4. [Connessione a un IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm).
