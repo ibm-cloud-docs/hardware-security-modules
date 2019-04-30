@@ -24,7 +24,7 @@ subcollection: hardware-security-modules
 * {{site.data.keyword.cloud_notm}} HSM 6.0 已通過 FIPS 140-2 Level 2 驗證，適用於 PKI、數位簽章及加密金鑰儲存空間。
 
 完成以下步驟以開始使用 {{site.data.keyword.cloud}} HSM：
-1. 瞭解 [HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about-ibm-cloud-hsm#about-ibm-cloud-hsm)。
+1. 瞭解 [HSM](https://cloud.ibm.com/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-about_ibm_cloud_hsm)。
 2. [佈建 IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm#provisioning-ibm-cloud-hs)。
 3. [起始設定 IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm#initializing-the-ibm-cloud-hsm)。
 4. [連接至 IBM Cloud HSM](/docs/infrastructure/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm#connecting-to-ibm-cloud-hsm)。
