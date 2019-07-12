@@ -5,21 +5,22 @@
 IBM Cloud Hardware Security Modules
 
     {: .navgroup id="learn"}
-    index.md
-    about.md
-    hsmroles.md 
+    getting-started.md
+    [About IBM Cloud HSM](https://www.ibm.com/cloud/hardware-security-module)
+    hsmroles.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    /vsi/virtual-servers-navigating-devices
     hsmprovision.md
     initialize_hsm.md
     connecting_to_hsm.md
     creating_hsm_partitions.md
-    installinghsm.md 
+    installinghsm.md
     manage_hsm.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     [Getting help and support](/vsi/virtual-servers-gettinghelp#gettinghelp)
-    hsmfaq.md 
+    hsmfaq.md
     {: .navgroup-end}

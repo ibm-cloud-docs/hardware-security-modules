@@ -60,56 +60,30 @@ You can use the HSM service to support a variety of use cases and applications s
 {: faq}
 Key capacity is calculated by creating one partition and creating keys until the partition is full.
 All numbers are approximate. Capacity varies depending on specific key attributes set in the key generation template and number of partitions.
-<table>
-<th>RSA Key size
-</th>
-<th>Private keys</th>
-<th>Key pairs</th>
-<tr><td>RSA-2048</td>
-<td>12,000</td>
-<td>9,500</td></tr>
-<tr><td>RSA-4096</td>
-<td>6,500</td>
-<td>5,200</td></tr>
-<tr><td>RSA-8192</td>
-<td>3,300</td>
-<td>2,700</td></tr>
 
-<th>ECDSA Key size
-</th>
-<th>Private keys</th>
-<th>Key pairs</th>
-<tr><td>P-256</td>
-<td>63,000</td>
-<td>37,500</td></tr>
-<tr><td>P-384</td>
-<td>58,000</td>
-<td>33,000</td></tr>
-<tr><td>P-521</td>
-<td>48,000</td>
-<td>27,000</td></tr>
-<tr><td>BrainpoolP512r1</td>
-<td>48,000</td>
-<td>27,000</td></tr>
+| RSA Key size | Private keys| Key pairs |
+|--------------|-------------|-----------|
+|RSA-2048|12,000|9,500|
+|RSA-4096|6,500|5,200|
+|RSA-8192|3,300|2,700|
+{: caption="Table 1. RSA key capacity" caption-side="top"}
 
-<th>Symmetrical Key size
-</th>
-<th colspan="2">Keys</th>
+| ECDSA Key size | Private keys| Key pairs |
+|--------------|-------------|-----------|
+|P-256|63,000|37,500|
+|P-384|58,000|33,000|
+|P-521|48,000|27,000|
+|BrainpoolP512r1|48,000|27,000|
+|P-521|48,000|27,000|
+{: caption="Table 1. ECDSA key capacity" caption-side="top"}
 
-<tr><td>AES128</td>
-<td colspan="2">126,000</td>
-</tr>
-<tr><td>AES256</td>
-<td colspan="2">112,000</td>
-</tr>
-<tr><td>DES</td>
-<td colspan="2">140,000</td>
-
-</tr>
-<tr><td>3DES</td>
-<td colspan="2">123,000</td>
-</tr>
-</table>
+| Symmetrical Key size | Keys|
+|--------------|-------------|
+|AES128|126,000|
+|AES256|112,000|
+|DES|140,000|
+|3DES|123,000|
+{: caption="Table 1. Symmetrical key capacity" caption-side="top"}
 
 ## Can I configure high availability for my {{site.data.keyword.cloud_notm}} HSM?
 {: #can-i-configure-high-availability-with-my-ibm-cloud-hsm}

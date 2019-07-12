@@ -17,7 +17,7 @@ subcollection: hardware-security-modules
 # About IBM Cloud HSM
 {: #about_ibm_cloud_hsm}
 
-The {{site.data.keyword.cloud}} HSM "as a service" offering provides dedicated, single-tenant encryption, key management, and storage using Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.  
+The {{site.data.keyword.cloud}} HSM as a service offering provides dedicated, single-tenant encryption, key management, and storage using Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.  
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} personnel manage and monitor the health of the HSM appliance and operating environment, and do not have access to where your keys are stored. This separation of key and data management duties is for data security governance and regulatory alignment.
@@ -35,4 +35,4 @@ Benefits of the offering include
   * Management of the key lifecycle by the customer from creation to destruction
   * Increased security from private network access
   * Integration of applications or storage services through APIs
-  * Lower IT costs by using the {{site.data.keyword.cloud_notm}} infrastructure to manage the hardware, physical security, and operating environment
+  * Reduce IT costs by using the {{site.data.keyword.cloud_notm}} infrastructure to manage the hardware, physical security, and operating environment
