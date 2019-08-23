@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, keys,
 
@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:note: .note}
 
 # Managing your IBM Cloud HSM
@@ -21,6 +21,8 @@ From the Device List, you can manage your {{site.data.keyword.cloud}} Hardware S
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-manage}
+
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/hardware-security-modules?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 

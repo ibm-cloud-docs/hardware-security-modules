@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Getting Started with IBM Cloud HSM
 {: #getting-started-with-ibm-cloud-hsm}

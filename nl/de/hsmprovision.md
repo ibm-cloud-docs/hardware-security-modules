@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # IBM Cloud HSM bereitstellen
 {: #provisioning-ibm-cloud-hsm}

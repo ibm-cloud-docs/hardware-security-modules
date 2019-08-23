@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, provisioning HSM, keys
 
@@ -11,12 +11,14 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Provisioning IBM Cloud HSM
 {: #provisioning-ibm-cloud-hsm}
 
 ## Before you begin
+{: #before-you-begin-provision}
+
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/hardware-security-modules?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
@@ -26,7 +28,7 @@ To provision your {{site.data.keyword.cloud}} HSM through the {{site.data.keywor
 {:shortdesc}
 
 1. Click the **Security and Identity** menu and select the **Cloud HSM** tile.
-2. Click **Create**.
+2. Select **Create**.
 3. Select the following:
 
 | Field | Value |

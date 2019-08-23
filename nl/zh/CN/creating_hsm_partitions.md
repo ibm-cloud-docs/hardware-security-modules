@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # 创建 IBM Cloud HSM 分区
 {: #creating-ibm-cloud-hsm-partitions}

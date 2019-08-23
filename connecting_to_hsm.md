@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, keys, rsa,
 
@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Connecting to IBM Cloud HSM
 {: #connecting-to-ibm-cloud-hsm}

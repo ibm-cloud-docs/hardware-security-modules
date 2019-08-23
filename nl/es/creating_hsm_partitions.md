@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Creación de particiones de IBM Cloud HSM
 {: #creating-ibm-cloud-hsm-partitions}

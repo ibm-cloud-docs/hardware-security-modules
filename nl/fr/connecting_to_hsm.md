@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Connexion au module IBM Cloud HSM
 {: #connecting-to-ibm-cloud-hsm}

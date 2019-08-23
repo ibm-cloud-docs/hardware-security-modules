@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Inicialización del IBM Cloud HSM
 {: #initializing-the-ibm-cloud-hsm}

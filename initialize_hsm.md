@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-04-05"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, initializing HSM
 
@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Initializing the IBM Cloud HSM
 {: #initializing-the-ibm-cloud-hsm}
@@ -35,4 +35,4 @@ hsm init successful.
 Command Result : 0 (Success)
 ```
 
-Refer to the [LunaSH Command Reference Guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](ftp://public.dhe.ibm.com/cloud/bluemix/hsm/LunaSH_Command_Reference_Guide_72.pdf){: new_window} for all available commands supported in the HSM CLI.
+Refer to the [LunaSH Command Reference Guide](ftp://public.dhe.ibm.com/cloud/bluemix/hsm/LunaSH_Command_Reference_Guide_72.pdf){: external} for all available commands supported in the HSM CLI.

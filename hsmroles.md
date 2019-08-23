@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-07"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, HSM roles, HSM Security Officer, Partition Security Officer, Crypto Officer, Auditor, Crypto User, Appliance Admin, HSM Security Officer, Partition Security Officer, cryptographic, keys,
 
@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # IBM Cloud HSM Roles
 {: #ibm-cloud-hsm-roles}
@@ -20,6 +20,8 @@ This topic outlines the roles that access the {{site.data.keyword.cloud}} HSM, a
 {:shortdesc}
 
 ## Mandatory Roles
+{: #mandatory-roles}
+
 <li>HSM Security Officer (SO): responsible for initialization of the HSM, setting and changing of HSM Policies (based on the HSM's Capabilities), creation and deletion of application partitions
 <li>Partition Security Officer (PO): responsible for initializing the Crypto Officer role on the partition, resetting passwords, setting and changing partition-level Policies (based on the HSM's and the partition's Capabilities)
 <li>Crypto Officer (CO): responsible for initializing the Crypto User role, and for creating and modifying cryptographic objects in the HSM partition

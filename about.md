@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-03-07"
+lastupdated: "2019-08-23"
 
 keywords: hardware security modules, HSM, single-tenant encryption, key management, Gemalto SafeNet Luna, FIPS certified, cryptographic, keys,
 
@@ -11,7 +11,7 @@ subcollection: hardware-security-modules
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:note .note}
 
 # About IBM Cloud HSM
