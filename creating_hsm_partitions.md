@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-23"
+  years: 2014, 2020
+lastupdated: "2020-05-15"
 
 keywords: hardware security modules, HSM, partitions, labels, cryptographic, keys,
 
@@ -16,12 +16,12 @@ subcollection: hardware-security-modules
 # Creating IBM Cloud HSM partitions
 {: #creating-ibm-cloud-hsm-partitions}
 
-Within an {{site.data.keyword.cloud}} Hardware Security Module (HSM), separate cryptographic workspaces must be initialized and designated for clients. A workspace, or *partition*, and all its contents are protected by encryption derived from its authentication. Only a client that presents the proper authentication is allowed to see the partition and work with its contents.
+Within an {{site.data.keyword.cloud}} Hardware Security Module (HSM), separate cryptographic workspaces must be initialized and designated for clients. A workspace, or *partition*, and all its contents are protected by encryption that is derived from its authentication. Only a client that presents the proper authentication is allowed to see the partition and work with its contents.
 {:shortdesc}
 
-When creating your partitions, be aware that partition names, also known as labels, must be unique in the HSM. You cannot create two partitions with the same label on one HSM. What you name your partition is the label that is seen by Public-Key Cryptographic Standards (PKCS) #11 applications.
+When you create your partitions, be aware that partition names, also known as labels, must be unique in the HSM. You cannot create two partitions with the same label on one HSM. What you name your partition is the label that is seen by Public-Key Cryptographic Standards (PKCS) #11 applications.
 
-1. Log in as the HSM Administrator with the password used for initializing the HSM.
+1. Log in as the HSM Administrator with the password that is used for initializing the HSM.
 ```
 [myLuna] lunash:>hsm login
 Please enter HSM Administrators' password:
