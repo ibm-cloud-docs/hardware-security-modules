@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-23"
+  years: 2014, 2020
+lastupdated: "2020-05-15"
 
 keywords: hardware security modules, HSM, provisioning HSM, keys
 
@@ -20,7 +20,7 @@ subcollection: hardware-security-modules
 {: #before-you-begin-provision}
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/hardware-security-modules?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
@@ -29,14 +29,14 @@ To provision your {{site.data.keyword.cloud}} HSM through the {{site.data.keywor
 
 1. Click the **Security and Identity** menu and select the **Cloud HSM** tile.
 2. Select **Create**.
-3. Select the following:
+3. Select the following options:
 
 | Field | Value |
 | --- | --- |
 | **Billing** | Select **Hourly** or **Monthly** based on how you're using the IBM Cloud HSM. |
-| **Location** | Choose the data center where your Cloud HSM is located. Available data centers are under **North America**, **Europe**, and **Asia-Pacific**. |
+| **Location** | Choose the data center where your Cloud HSM is located. Available data centers are in **North America**, **Europe**, and **Asia-Pacific**. |
 | **Hardware Security Module** | Select the appropriate Cloud HSM model. The latest model is recommended unless you have existing HSMs in your environment. |
 {: caption="Table 1. HSM options" caption-side="top"}   
 
-4. After you review your order summary, click the **Third-Party Service Agreements** check box.
+4. After you review your order summary, click the **Third-Party Service Agreements** checkbox.
 5. Click **Provision**.
