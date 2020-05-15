@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-23"
+  years: 2014, 2020
+lastupdated: "2020-05-15"
 
 keywords: hardware security modules, HSM, frequently asked questions, FAQs, cryptographic, symmetrical, keys, secrets
 
@@ -23,17 +23,17 @@ The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant e
 ## What is a Hardware Security Module (HSM)?
 {: #what-is-a-hardware-security-module-hsm}
 {: faq}
-An HSM is a piece of hardware which processes cryptographic operations and does not allow encryption keys to leave the secure cryptographic environment. Data, shared, stored or in motion, is encrypted at its point of creation and companies can execute and maintain their own data protection policies in the cloud.
+An HSM is a piece of hardware that processes cryptographic operations and does not allow encryption keys to leave the secure cryptographic environment. Data that is shared, stored, or in motion, is encrypted at its point of creation and you can run and maintain your own data protection policies in the cloud.
 
 ## What HSM does {{site.data.keyword.cloud_notm}} rely on?
 {: #what-hsm-does-ibm-cloud-rely-on}
 {: faq}
-{{site.data.keyword.IBM}} leverages Gemalto SafeNet Luna Network HSM technology for Cloud HSM 6.0 and 7.0 offerings. This solution gives customers ease of access to 60 {{site.data.keyword.cloud}} data centers around the world that they can use to solve their compliance and data sovereignty challenges.
+{{site.data.keyword.IBM}} leverages Gemalto SafeNet Luna Network HSM technology for Cloud HSM 6.0 and 7.0 offerings. This solution gives use ease of access to 60 {{site.data.keyword.cloud}} data centers around the world that you can use to solve their compliance and data sovereignty challenges.
 
 ## Which version of {{site.data.keyword.cloud_notm}} HSM should I order?
 {: #which-version-of-ibm-cloud-hsm-should-i-order}
 {: faq}
-In most cases, you should always order the newest version of an HSM. Some users with older versions might have compatibility issues with high availability if they have existing older HSMs. If you already have older versions, contact Support to determine which version is right for you.
+In most cases, you need to order the newest version of an HSM. With older versions, you might have compatibility issues with high availability if you have older HSMs. If you already have older versions, contact Support to determine which version is right for you.
 
 ## Can I migrate my existing HSM to a new version?
 {: #can-i-migrate-my-existing-hsm-to-a-new-version}
@@ -48,7 +48,7 @@ Yes, {{site.data.keyword.cloud_notm}} HSM 7.0 is FIPS 140-2 Level 3 certified, a
 ## What use cases can I address with {{site.data.keyword.cloud_notm}} HSM?
 {: #what-use-cases-can-I-address-with-ibm-cloud-hsm}
 {: faq}
-You can use the HSM service to support a variety of use cases and applications such as Public Key Infrastructure (PKI), code signing, database encryption, document signing, Digital Rights Management (DRM), authentication and authorization, and transaction processing.
+You can use the HSM service to support Public Key Infrastructure (PKI), code signing, database encryption, document signing, Digital Rights Management (DRM), authentication and authorization, and transaction processing.
 
 ## How many partitions will my {{site.data.keyword.cloud_notm}} HSM support?
 {: #how-many-partitions-will-my-ibm-cloud-hsm-support}
@@ -88,7 +88,7 @@ All numbers are approximate. Capacity varies depending on specific key attribute
 ## Can I configure high availability for my {{site.data.keyword.cloud_notm}} HSM?
 {: #can-i-configure-high-availability-with-my-ibm-cloud-hsm}
 {: faq}
-Yes, to configure high availability across partitions of the {{site.data.keyword.cloud_notm}} HSM using secrets, see the [SafeNet Luna Network HSM 7.2 Installation Guide](https://supportportal.gemalto.com/csm?id=kb_article_view&sys_kb_id=19a81c8bdb9a1fc8d298728dae96197d&sysparm_article=KB0017573){: external}. Log in to the Gemalto Support Portal is required.
+Yes, to configure high availability across partitions of the {{site.data.keyword.cloud_notm}} HSM by using secrets, see the [SafeNet Luna Network HSM 7.2 Installation Guide](https://supportportal.gemalto.com/csm?id=kb_article_view&sys_kb_id=19a81c8bdb9a1fc8d298728dae96197d&sysparm_article=KB0017573){: external}. Log in to the Gemalto Support Portal is required.
 
 ## How can I back up my {{site.data.keyword.cloud_notm}} HSM configuration?
 {: #how-can-i-back-up-my-ibm-cloud-hsm-configuration}
