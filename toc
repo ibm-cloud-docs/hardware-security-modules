@@ -11,7 +11,7 @@ IBM Cloud Hardware Security Modules
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    /vsi/virtual-servers-navigating-devices
+    /virtual-servers/virtual-servers-navigating-devices
     hsmprovision.md
     initialize_hsm.md
     connecting_to_hsm.md
@@ -21,6 +21,6 @@ IBM Cloud Hardware Security Modules
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Getting help and support](/vsi/virtual-servers-gettinghelp#gettinghelp)
+    [Getting help and support](/virtual-servers/virtual-servers-gettinghelp#gettinghelp)
     hsmfaq.md
     {: .navgroup-end}
