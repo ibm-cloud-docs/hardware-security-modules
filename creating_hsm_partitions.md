@@ -31,7 +31,7 @@ Command Result : 0 (Success)
 ```
 2. Create the partition.
 ```
-[myLuna] Lunash:>partition create - partition customerPartionProd
+[myLuna] Lunash:>partition create -partition customerPartionProd
 Please ensure that you have purchased licenses for at least this number of partitions: 1
 If you are sure to continue then type proceed, otherwise type quit.
 > proceed
