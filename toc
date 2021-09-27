@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hardware-security-modules" audience="service" href="docs/hardware-security-modules?topic=hardware-security-modules-getting-started-with-ibm-cloud-hsm" path="hardware-security-modules"}
+{: .toc subcollection="hardware-security-modules" version="2" audience="service" href="docs/hardware-security-modules?topic=hardware-security-modules-getting-started-with-ibm-cloud-hsm" path="hardware-security-modules"}
 IBM Cloud Hardware Security Modules
 
     {: .navgroup id="learn"}
