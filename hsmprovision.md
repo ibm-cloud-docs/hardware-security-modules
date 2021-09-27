@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2020
+  years: 2014, 2021
 lastupdated: "2020-05-15"
 
 keywords: hardware security modules, HSM, provisioning HSM, keys
@@ -19,7 +19,7 @@ subcollection: hardware-security-modules
 ## Before you begin
 {: #before-you-begin-provision}
 
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
