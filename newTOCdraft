@@ -1,0 +1,45 @@
+---
+toc:
+  properties:
+    subcollection: hardware-security-modules
+    version: 2
+    category: compute_classic
+    audience: service 
+    href: /docs/hardware-security-modules
+    console-page: "/classic"
+    product-page: "https://www.ibm.com/cloud/hardware-security-modules"
+    path: hardware-security-modules
+    label: IBM Cloud Hardware Security Modules 
+
+  entries: 
+
+  - navgroup: 
+      id: learn
+      topics:
+      - index.md
+      - link:
+          label: ABOUT IBM Cloud HSM
+          href: https://www.ibm.com/cloud/hardware-security-module
+      - hsmroles.md
+          
+  - navgroup: 
+      id: howto
+      topics:
+      - /virtual-servers/virtual-servers-navigating-devices
+      - hsmprovision.md
+      - initialize_hsm.md
+      - connecting_to_hsm.md
+      - creating_hsm_partitions.md
+      - installinghsm.md
+      - manage_hsm.md
+
+  - navgroup:
+      id: help
+      topics: 
+      - link:
+          label: Getting help and support
+          href: https://www.ibm.com/cloud/hardware-security-module
+      - sap-support.md
+      - hsmfaq.md
+      
+
