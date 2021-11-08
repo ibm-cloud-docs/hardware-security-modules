@@ -16,9 +16,9 @@ toc:
   - navgroup: 
       id: learn
       topics:
-      - index.md
+      - getting-started.md
       - link:
-          label: ABOUT IBM Cloud HSM
+          label: About IBM Cloud HSM
           href: https://www.ibm.com/cloud/hardware-security-module
       - hsmroles.md
           
@@ -39,7 +39,6 @@ toc:
       - link:
           label: Getting help and support
           href: https://www.ibm.com/cloud/hardware-security-module
-      - sap-support.md
       - hsmfaq.md
       
 
