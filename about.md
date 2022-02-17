@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-03-15"
+  years: 2014, 2022
+lastupdated: "2022-02-17"
 
 keywords: hardware security modules, HSM, single-tenant encryption, key management, Gemalto SafeNet Luna, FIPS certified, cryptographic, keys, Thales
 
@@ -17,7 +17,7 @@ subcollection: hardware-security-modules
 # About IBM Cloud HSM
 {: #about-hsm}
 
-{{site.data.keyword.cloud}} HSM provides dedicated, single-tenant encryption, key management, and storage that uses Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.  
+{{site.data.keyword.cloud}} Classic infrastructure HSM provides dedicated, single-tenant encryption, key management, and storage that uses Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.  
 {: shortdesc}
 
 {{site.data.keyword.cloud_notm}} personnel manage and monitor the health of the HSM appliance and operating environment, and don't have access to where your keys are stored. This separation of key and data management duties is for data security governance and regulatory alignment.
