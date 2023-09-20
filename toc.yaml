@@ -25,7 +25,7 @@ toc:
   - navgroup: 
       id: howto
       topics:
-      - include: ../virtual-servers/virtual-servers-navigating-devices
+      - include: ../virtual-servers/virtual-servers-navigating-devices.md
       - hsmprovision.md
       - initialize_hsm.md
       - connecting_to_hsm.md
