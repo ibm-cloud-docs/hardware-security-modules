@@ -16,7 +16,7 @@ toc:
   - navgroup: 
       id: learn
       topics:
-      - getting-started.md
+      - index.md
       - link:
           label: About IBM Cloud HSM
           href: https://www.ibm.com/cloud/hardware-security-module
@@ -25,7 +25,7 @@ toc:
   - navgroup: 
       id: howto
       topics:
-      - /virtual-servers/virtual-servers-navigating-devices
+      - include: ../virtual-servers/virtual-servers-navigating-devices
       - hsmprovision.md
       - initialize_hsm.md
       - connecting_to_hsm.md
@@ -39,6 +39,8 @@ toc:
       - link:
           label: Getting help and support
           href: https://www.ibm.com/cloud/hardware-security-module
+      - sap-support.md
       - hsmfaq.md
+
       
 
