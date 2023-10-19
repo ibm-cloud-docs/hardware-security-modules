@@ -3,7 +3,7 @@
 copyright:
   years: 2014, 2021
 
-lastupdated: "2021-09-20"
+lastupdated: "2023-10-19"
 
 
 keywords: hardware security modules, HSM, initializing HSM
@@ -57,7 +57,7 @@ Use the following steps to determine your HSM version.
 
 ## Going to the Command Reference Guide
 
-1. Go to the [Luna Network HSM Product Documentation](https://thalesdocs.com/gphsm/Content/luna/network/luna_network_releases.htm){: external} page.
+1. Go to the [Luna Network HSM Product Documentation](https://thalesdocs.com/gphsm/Content/luna/usb/luna_usb_releases.htm){: external} page.
 2. Go to your HSM version.
    - If your product is Luna Network HSM-SA7000, select **Luna SA 5** from the Active Products menu.
    - If your product is Luna Network HSM-A750, select **Luna Network HSM 7** from the Active Products menu.
