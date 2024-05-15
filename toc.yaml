@@ -7,7 +7,7 @@ toc:
     audience: service 
     href: /docs/hardware-security-modules
     console-page: "/classic"
-    product-page: "https://www.ibm.com/cloud/hardware-security-modules"
+    product-page: "https://www.ibm.com/products/hardware-security-module"
     path: hardware-security-modules
     label: IBM Cloud Hardware Security Modules for Classic
 
@@ -16,16 +16,15 @@ toc:
   - navgroup: 
       id: learn
       topics:
-      - index.md
+      - about.md
       - link:
           label: About IBM Cloud HSM
-          href: https://www.ibm.com/cloud/hardware-security-module
+          href: https://www.ibm.com/products/hardware-security-module
       - hsmroles.md
           
   - navgroup: 
       id: howto
       topics:
-      - include: ../virtual-servers/virtual-servers-navigating-devices.md
       - hsmprovision.md
       - initialize_hsm.md
       - connecting_to_hsm.md
@@ -38,9 +37,6 @@ toc:
       topics: 
       - link:
           label: Getting help and support
-          href: https://www.ibm.com/cloud/hardware-security-module
-      - sap-support.md
+          href: https://www.ibm.com/products/hardware-security-module
       - hsmfaq.md
-
       
-
