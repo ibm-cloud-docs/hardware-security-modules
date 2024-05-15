@@ -37,6 +37,6 @@ toc:
       topics: 
       - link:
           label: Getting help and support
-          href: ../get-support?topic=get-support-get-supportfaq#planned_maintenance_gs
+          href: /get-support?topic=get-support-get-supportfaq#planned_maintenance_gs
       - hsmfaq.md
       
