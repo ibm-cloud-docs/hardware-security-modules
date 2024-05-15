@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-05-15"
 
 
 keywords: hardware security modules, HSM, initializing HSM
@@ -12,12 +12,9 @@ subcollection: hardware-security-modules
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:note: .note}
-{:codeblock: .codeblock}
+{{site.data.keyword.attribute-definition-list}}
 
-# Initializing the IBM Cloud HSM
+# Initializing the IBM Cloud Hardware Security Module
 {: #initializing-the-ibm-cloud-hsm}
 
 After you have access to the Hardware Security Module (HSM), you must initialize the HSM. You might also need to reinitialize it in the future. To initialize the HSM, complete the following steps.
@@ -25,19 +22,19 @@ After you have access to the Hardware Security Module (HSM), you must initialize
 
 Initialize the HSM `[myLuna] lusash:.hsm init -label Customer1Prod`.
 
-The HSM admin userID that you use to access the appliance is different from the admin userID that you use to run commands on the appliance.
+The HSM admin user ID that you use to access the appliance is different from the admin user ID that you use to run commands on the appliance.
 {: note}
 
 
    ```text
-   Please enter a password for the HSM Administrator:
+   Enter a password for the HSM Administrator:
    >**************
-   Please re-enter password to confirm:
+   Reenter password to confirm:
    >**************
-   Please enter the cloning domain to use for initializing this HSM (press to use the default domain):
+   Enter the cloning domain to use for initializing this HSM (press to use the default domain):
    >MyDomain
-   CAUTION: Are you sure you wish to re-initialize this HSM?
-   All partitions and data will be erased.
+   CAUTION: Are you sure that you want to reinitialize this HSM?
+   All partitions and data are erased.
    Type proceed to initialize the HSM, or type quite to quit now.
    >proceed
    hsm init successful.
@@ -45,21 +42,23 @@ The HSM admin userID that you use to access the appliance is different from the 
    ```
 
 See the Command Reference Guide for your Luna HSM version to access all available commands supported in the HSM CLI.
-To access the appropriate document, folow the following steps.
+To access the appropriate document, use the following steps.
 
-## Determine your HSM version.
+## Determining your HSM version
 {: #determine-hsm-version}
 
-Use the following steps to determine your HSM version. 
-1. From theIBM Cloud Dashboard, navigate to the **resource list** by clicking the ![Resource list icon](../../images/Resource-list.png) symbol on the white sidebar to the left.
-2. Once on the Resource list page, expand the Devices dropdown list by clicking the arrow to the left of Devices.
-3. Under Server Details, the Model type will be listed as **Luna Network HSM-SA7000** or **Luna Network HSM-A750**.
+Use the following steps to determine your HSM version.
+
+1. From your {{site.data.keyword.cloud}} console, click **Resource list**.
+2. From your Resource list, click **Devices** 
+3. Under **Server details**, the model type is listed as **Luna Network HSM-SA7000** or **Luna Network HSM-A750**.
 
 ## Going to the Command Reference Guide
+{: #going-to-command-reference-guide}
 
-1. Go to the [Luna Network HSM Product Documentation](https://thalesdocs.com/gphsm/Content/luna/usb/luna_usb_releases.htm){: external} page.
+1. Go to the [Luna Network HSM Product Documentation](https://thalesdocs.com/gphsm/Content/luna/usb/luna_usb_releases.htm){: external}.
 2. Go to your HSM version.
    - If your product is Luna Network HSM-SA7000, select **Luna SA 5** from the Active Products menu.
    - If your product is Luna Network HSM-A750, select **Luna Network HSM 7** from the Active Products menu.
-3. Select **User Documentation**.
-4. Under **Tools and Utilities**, select **Luna SH Command Reference** to open the Command Reference Guide.
+3. Select **User documentation**.
+4. Under **Tools and utilities**, select **Luna SH Command Reference** to open the Command Reference Guide.
