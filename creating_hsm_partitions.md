@@ -10,7 +10,7 @@ subcollection: hardware-security-modules
 
 ---
 
-{{site.data.keyword.cloud}}
+{{site.data.keyword.attribute-definition-list}}
 
 # Creating IBM Cloud Hardware Security Module partitions
 {: #creating-ibm-cloud-hsm-partitions}
