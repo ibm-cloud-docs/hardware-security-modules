@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-06-11"
+  years: 2014, 2024
+lastupdated: "2024-05-16"
 
 keywords: hardware security modules, HSM, HSM roles, HSM Security Officer, Partition Security Officer, Crypto Officer, Auditor, Crypto User, Appliance Admin, HSM Security Officer, Partition Security Officer, cryptographic, keys,
 
@@ -10,23 +10,22 @@ subcollection: hardware-security-modules
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
-# IBM Cloud HSM Roles
+# IBM Cloud Hardware Security Module Roles
 {: #ibm-cloud-hsm-roles}
 
-The following sections outline the roles that access the {{site.data.keyword.cloud}} HSM and the cryptographic engine within or connected to the host.  
-{:shortdesc}
+The following sections outline the roles that access the {{site.data.keyword.cloud}} Hardware Security Module (HSM) and the cryptographic engine within or connected to the host.  
+{: shortdesc}
 
 ## Mandatory roles
 {: #mandatory-roles}
 
 The following roles are mandatory if you want to access the {{site.data.keyword.cloud}} HSM.
 
-* **HSM Security Officer (SO)** is responsible for initialization of the HSM, setting and changing of HSM policies and creating and deleting application partitions
-* **Partition Security Officer (PO)** is responsible for initializing the Crypto Officer role on the partition, resetting passwords, setting and changing partition-level policies
-* **Crypto Officer (CO)** is responsible for initializing the Crypto User role, and for creating and modifying cryptographic objects in the HSM partition
+* **HSM Security Officer (SO)** is responsible for initialization of the HSM, setting and changing of HSM policies, and creating or deleting application partitions.
+* **Partition Security Officer (PO)** is responsible for initializing the Crypto Officer role on the partition, resetting passwords, and setting and changing partition-level policies,
+* **Crypto Officer (CO)** is responsible for initializing the Crypto User role and for creating and modifying cryptographic objects in the HSM partition.
 
 ## Optional Roles
 {: #optional-roles}
@@ -78,4 +77,4 @@ The Crypto Officer has full read/write access to the partition through the LunaC
 
 The Crypto User is a restricted read-only client user. After initialization, the authenticated Crypto User can access cryptographic materials that exist on the partition, but can't manipulate those objects.
 
-The Crypto User role is optional. If you don't have security requirement for this role, the CU role can remain uninitialized and all client applications can access the partition by using the Crypto Officer credential.
+The Crypto User role is optional. If you don't have a security requirement for this role, the CU role can remain uninitialized and all client applications can access the partition by using the Crypto Officer credential.
