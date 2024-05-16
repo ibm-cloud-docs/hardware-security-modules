@@ -91,7 +91,7 @@ Key capacity is calculated by creating one partition and creating keys until the
 {: caption="Table 3. Symmetrical key capacity" caption-side="top"}
 
 ## How can I determine my {{site.data.keyword.cloud_notm}} Hardware Security Model version?
-{: how-can-i-determine-my-hsm-version}
+{: #how-can-i-determine-my-hsm-version}
 {: faq}
 
 Use the following steps to determine your HSM version. 
