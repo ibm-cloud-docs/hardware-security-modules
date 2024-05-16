@@ -34,9 +34,9 @@ toc:
 
   - navgroup:
       id: help
-      topics: 
+      topics:
       - link:
           label: Getting help and support
-          href: /get-support?topic=get-support-get-supportfaq#contactsupport
+          href: https://www.ibm.com/products/hardware-security-module
       - hsmfaq.md
       
