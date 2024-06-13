@@ -10,9 +10,7 @@ toc:
     product-page: "https://www.ibm.com/products/hardware-security-module"
     path: hardware-security-modules
     label: IBM Cloud Hardware Security Modules for Classic
-
   entries: 
-
   - navgroup: 
       id: learn
       topics:
@@ -21,7 +19,6 @@ toc:
           label: About IBM Cloud HSM
           href: https://www.ibm.com/products/hardware-security-module
       - hsmroles.md
-          
   - navgroup: 
       id: howto
       topics:
@@ -31,7 +28,6 @@ toc:
       - creating_hsm_partitions.md
       - installinghsm.md
       - manage_hsm.md
-
   - navgroup:
       id: help
       topics:
@@ -39,4 +35,3 @@ toc:
           label: Getting help and support
           href: https://www.ibm.com/products/hardware-security-module
       - hsmfaq.md
-      

@@ -5,7 +5,7 @@
 IBM Cloud Hardware Security Modules
 
     {: .navgroup id="learn"}
-    getting-started.md
+    index.md
     [About IBM Cloud HSM](https://www.ibm.com/cloud/hardware-security-module)
     hsmroles.md
     {: .navgroup-end}
@@ -22,5 +22,6 @@ IBM Cloud Hardware Security Modules
 
     {: .navgroup id="help"}
     [Getting help and support](/virtual-servers/virtual-servers-gettinghelp#gettinghelp)
-    hsmfaq.md
+    sap-support.md
+    hsmfaq.md 
     {: .navgroup-end}
