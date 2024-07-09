@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-16"
+lastupdated: "2024-07-09"
 
 keywords: hardware security modules, HSM, keys,
 
@@ -46,4 +46,3 @@ While the HSM is powered off, you are still billed.
 {: note}
 
 To power off the HSM, go to the menu and select **Power On or Off**. While the HSM is powered off, it remains powered off state until you power it on.
-

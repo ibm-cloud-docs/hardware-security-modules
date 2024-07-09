@@ -2,8 +2,7 @@
 
 copyright:
   years: 2014, 2024
-
-lastupdated: "2024-05-15"
+lastupdated: "2024-07-09"
 
 
 keywords: hardware security modules, HSM, initializing HSM
@@ -40,6 +39,7 @@ The HSM admin user ID that you use to access the appliance is different from the
    hsm init successful.
    Command Result : 0 (Success)
    ```
+   {: codeblock}
 
 See the Command Reference Guide for your Luna HSM version to access all available commands supported in the HSM CLI.
 To access the appropriate document, use the following steps.
