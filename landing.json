@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "title": "IBM Cloud Hardware Security Modules for Classic",
+  "introduction": "IBM Cloud® Classic infrastructure Hardware Security Module (HSM) provides dedicated, single-tenant encryption, key management, and storage that uses Hardware Security Modules (HSMs). An HSM is a physical device that safeguards and manages digital keys for strong authentication and provides crypto-processing.",
+  "product_page": "https://www.ibm.com/products/hardware-security-module",
+  "console_page": "/classic",
+  "section_topics": {
+    "links": [
+      {
+        "title": "About IBM Cloud Hardware Security Module",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-about-hsm"
+      },
+      {
+        "title": "Provisioning IBM Cloud Hardware Security Module",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-provisioning-ibm-cloud-hsm"
+      },
+      {
+        "title": "Initializing the IBM Cloud Hardware Security Module",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-initializing-the-ibm-cloud-hsm"
+      },
+      {
+        "title": "Connecting to you IBM Cloud Hardware Security Module",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-connecting-to-ibm-cloud-hsm"
+      },
+      {
+        "title": "Creating IBM Cloud Hardware Security Module partitions",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-creating-ibm-cloud-hsm-partitions"
+      },
+      {
+        "title": "Installing the IBM Cloud Hardware Security Module client",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-installing-the-ibm-cloud-hsm-client"
+      },
+      {
+        "title": "FAQs: IBM Cloud Hardware Security Module",
+        "href": "/docs/hardware-security-modules?topic=hardware-security-modules-faqs-ibm-cloud-hsm"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud Virtual Server for VPC",
+      "description": "IBM Cloud Virtual Servers are configurable single- or multi-tenant virtual machines, available with Intel, IBM zSystems, and IBM LinuxONE architectures.",
+      "href": "https://www.ibm.com/products/virtual-servers",
+      "type": "blog"
+    },
+    {
+      "title": "IBM Cloud Bare Metal Servers on VPC Infrastructure",
+      "description": "Discover the deployment options associated with IBM Cloud Bare Metal Servers.",
+      "href": "https://www.ibm.com/products/bare-metal-servers/vpc",
+      "type": "blog"
+    }
+  ]
+}
