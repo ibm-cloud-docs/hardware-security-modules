@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-10-09"
 
 keywords: frequently asked questions, FAQs, cryptographic, symmetrical, keys, secrets
 
@@ -71,7 +71,7 @@ Key capacity is calculated by creating one partition and creating keys until the
 |RSA-2048|12,000|9,500|
 |RSA-4096|6,500|5,200|
 |RSA-8192|3,300|2,700|
-{: caption="Table 1. RSA key capacity" caption-side="top"}
+{: caption="RSA key capacity" caption-side="top"}
 
 | ECDSA Key size | Private keys| Key pairs |
 |--------------|-------------|-----------|
@@ -80,7 +80,7 @@ Key capacity is calculated by creating one partition and creating keys until the
 |P-521|48,000|27,000|
 |BrainpoolP512r1|48,000|27,000|
 |P-521|48,000|27,000|
-{: caption="Table 2. ECDSA key capacity" caption-side="top"}
+{: caption="ECDSA key capacity" caption-side="top"}
 
 | Symmetrical Key size | Keys|
 |--------------|-------------|
@@ -88,7 +88,7 @@ Key capacity is calculated by creating one partition and creating keys until the
 |AES256|112,000|
 |DES|140,000|
 |3DES|123,000|
-{: caption="Table 3. Symmetrical key capacity" caption-side="top"}
+{: caption="Symmetrical key capacity" caption-side="top"}
 
 ## How can I determine my {{site.data.keyword.cloud_notm}} Hardware Security Model version?
 {: #how-can-i-determine-my-hsm-version}
