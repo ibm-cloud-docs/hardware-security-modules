@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-05-16"
+lastupdated: "2024-10-09"
 
 keywords: hardware security modules, HSM, provisioning HSM, keys
 
@@ -35,7 +35,7 @@ To provision your {{site.data.keyword.cloud}} HSM through the {{site.data.keywor
    | **Billing** | Select **Hourly** or **Monthly**. |
    | **Location** | Choose the data center where your Cloud HSM is located. Available data centers are in **North America**, **Europe**, and **Asia-Pacific**. |
    | **Hardware Security Module** | Select the appropriate Cloud HSM model. The latest model is recommended unless you have existing HSMs in your environment. |
-   {: caption="Table 1. HSM options" caption-side="top"}   
+   {: caption="HSM options" caption-side="top"}   
    
 4. After you review your order summary, click the **Third-Party Service Agreements** checkbox.
 5. Click **Provision**.
