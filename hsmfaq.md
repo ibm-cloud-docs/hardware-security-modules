@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-10-09"
+  years: 2014, 2025
+lastupdated: "2025-03-24"
 
 keywords: frequently asked questions, FAQs, cryptographic, symmetrical, keys, secrets
 
@@ -12,7 +12,7 @@ subcollection: hardware-security-modules
 
 {{site.data.keyword.cloud}}
 
-# FAQs: IBM Cloud Hardware Security Module
+# FAQ: IBM Cloud Hardware Security Module
 {: #faqs-ibm-cloud-hsm}
 
 The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant encryption, key management, and storage "as a service" using Hardware Security Modules (HSMs).
@@ -94,7 +94,7 @@ Key capacity is calculated by creating one partition and creating keys until the
 {: #how-can-i-determine-my-hsm-version}
 {: faq}
 
-Use the following steps to determine your HSM version. 
+Use the following steps to determine your HSM version.
 
 1. From the IBM Cloud console, go to your **Resource list**.
 2. From your Resource list, click **Devices**.
