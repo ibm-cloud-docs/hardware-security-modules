@@ -15,7 +15,7 @@ subcollection: hardware-security-modules
 # FAQ: IBM Cloud Hardware Security Module
 {: #faqs-ibm-cloud-hsm}
 
-The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant encryption, key management, and storage "as a service" using Hardware Security Modules (HSMs).
+The {{site.data.keyword.cloud}} Hardware Security Module (HSM) offering provides dedicated, single-tenant encryption, key management, and storage "as a service" by using hardware security modules.
 {: shortdesc}
 
 ## What is a hardware security module (HSM)?
@@ -36,7 +36,7 @@ An HSM is hardware that processes cryptographic operations and does not allow en
 
 In most cases, you need to order the newest version of an HSM. With older versions, you might have compatibility issues with high availability if you have older HSMs. If you already have older versions, contact [support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport) to determine which version is right for you.
 
-## Can I migrate my existing Hardware Security Module to a new version?
+## Can I migrate my existing hardware security module to a new version?
 {: #can-i-migrate-my-existing-hsm-to-a-new-version}
 {: faq}
 
@@ -46,7 +46,7 @@ You can't migrate your HSM. Instead, cancel your existing HSM from the **Devices
 {: #is-ibm-cloud-hsm-fips-certified}
 {: faq}
 
-Yes, {{site.data.keyword.cloud_notm}} HSM 7.0 is FIPS 140-2 Level 3 certified, and is designed to make sure that you receive a reliable and secure solution for the management of cryptographic assets.
+Yes, {{site.data.keyword.cloud_notm}} HSM is FIPS 140-2 Level 3 certified, and is designed to make sure that you receive a reliable and secure solution for the management of cryptographic assets.
 
 ## What use cases can I address with {{site.data.keyword.cloud_notm}} Hardware Security Module?
 {: #what-use-cases-can-I-address-with-ibm-cloud-hsm}
@@ -58,13 +58,13 @@ You can use {{site.data.keyword.cloud}} HSM to support Public Key Infrastructure
 {: #how-many-partitions-will-my-ibm-cloud-hsm-support}
 {: faq}
 
-{{site.data.keyword.cloud_notm}} HSM 7.0 supports up to 10 partitions.
+{{site.data.keyword.cloud_notm}} HSM supports up to 10 partitions.
 
 ## How many keys can I store with {{site.data.keyword.cloud_notm}} Hardware Security Module 7.0?
 {: #how-many-keys-can-be-stored-with-ibm-cloud-hsm-7.0}
 {: faq}
 
-Key capacity is calculated by creating one partition and creating keys until the partition is full. All numbers are approximate. Capacity varies depending on specific key attributes set in the key generation template and the number of partitions.
+Key capacity is calculated by creating one partition and creating keys until the partition is full. All numbers are approximate. Capacity varies depending on specific key attributes that are set in the key generation template and the number of partitions.
 
 | RSA Key size | Private keys| Key pairs |
 |--------------|-------------|-----------|
@@ -104,7 +104,7 @@ Use the following steps to determine your HSM version.
 {: #can-i-configure-high-availability-with-my-ibm-cloud-hsm}
 {: faq}
 
-Yes, to configure high availability across partitions of the {{site.data.keyword.cloud_notm}} HSM by using secrets, see the Installation Guide for your HSM version. [My Products](https://supportportal.gemalto.com/csm?id=csm_my_products){: external}. A login for the Thales Support Portal is required.
+Yes, to configure high availability across partitions of the {{site.data.keyword.cloud_notm}} HSM by using secrets, see the [Installation guide](https://supportportal.gemalto.com/csm?id=csm_my_products){: external} for your HSM version. A login for the Thales Support Portal is required.
 
 ## How can I back up my {{site.data.keyword.cloud_notm}} Hardware Security Module configuration?
 {: #how-can-i-back-up-my-ibm-cloud-hsm-configuration}
