@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2025
-lastupdated: "2025-03-24"
+lastupdated: "2025-10-03"
 
 keywords: frequently asked questions, FAQs, cryptographic, symmetrical, keys, secrets
 
@@ -18,13 +18,13 @@ subcollection: hardware-security-modules
 The {{site.data.keyword.cloud}} HSM offering provides dedicated, single-tenant encryption, key management, and storage "as a service" using Hardware Security Modules (HSMs).
 {: shortdesc}
 
-## What is a Hardware Security Module (HSM)?
+## What is a hardware security module (HSM)?
 {: #what-is-a-hardware-security-module-hsm}
 {: faq}
 
 An HSM is hardware that processes cryptographic operations and does not allow encryption keys to leave the secure cryptographic environment. Data that is shared, stored, or in motion, is encrypted at its point of creation and you can run and maintain your own data protection policies in the cloud.
 
-## What Hardware Security Module does {{site.data.keyword.cloud_notm}} rely on?
+## What hardware security module does {{site.data.keyword.cloud_notm}} rely on?
 {: #what-hsm-does-ibm-cloud-rely-on}
 {: faq}
 
