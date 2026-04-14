@@ -1,25 +1,24 @@
----
 toc:
   properties:
     subcollection: hardware-security-modules
     version: 2
     category: compute_classic
-    audience: service 
+    audience: service
     href: /docs/hardware-security-modules
     console-page: "/classic"
     product-page: "https://www.ibm.com/products/hardware-security-module"
     path: hardware-security-modules
     label: IBM Cloud Hardware Security Modules for Classic
-  entries: 
-  - navgroup: 
+  entries:
+  - navgroup:
       id: learn
       topics:
       - about.md
       - link:
           label: About IBM Cloud HSM
-          href: https://www.ibm.com/products/hardware-security-module
+          href: "https://www.ibm.com/products/hardware-security-module"
       - hsmroles.md
-  - navgroup: 
+  - navgroup:
       id: howto
       topics:
       - hsmprovision.md
@@ -33,5 +32,5 @@ toc:
       topics:
       - link:
           label: Getting help and support
-          href: https://www.ibm.com/products/hardware-security-module
+          href: "https://www.ibm.com/products/hardware-security-module"
       - hsmfaq.md
