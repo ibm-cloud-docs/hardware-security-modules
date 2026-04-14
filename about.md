@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-05-15"
+  years: 2014, 2026
+lastupdated: "2026-04-14"
 
 keywords: HSM, single-tenant encryption, key management, Gemalto SafeNet Luna, FIPS certified, cryptographic, keys, Thales
 
@@ -28,7 +28,7 @@ subcollection: hardware-security-modules
 Supported operating systems include AIX, Linux, Oracle Solaris, and Microsoft Windows.
 {: note}
 
-Benefits of {{site.data.keyword.cloud_notm}} HSM include
+{{site.data.keyword.cloud_notm}} HSM offers the following benefits
 
 * Improved compliance with data security governance and regulatory requirements and comprehensive control over encryption keys
 * Management of the key lifecycle by the customer from creation to destruction
