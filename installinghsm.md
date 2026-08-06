@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2025
-lastupdated: "2025-02-28"
+  years: 2014, 2026
+lastupdated: "2026-08-06"
 
 keywords: hardware security modules, HSM, installing HSM client, keys, installing hardware security modules
 
@@ -20,7 +20,7 @@ You need to install the client software before you can configure your {{site.dat
 
 Complete the client installation instructions that are in the [SafeNet Luna Network HSM 7.2 Installation Guide](https://supportportal.gemalto.com/csm?id=kb_article_view&sys_kb_id=19a81c8bdb9a1fc8d298728dae96197d&sysparm_article=KB0017573){: external} (page 32). 
 
-Log in by using your Thales Support Portal Customer ID, which was supplied to you by {{site.data.keyword.cloud_notm}} support. If you didn't receive this ID, contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-using-avatar).
+Log in by using your Thales Support Portal Customer ID, which was supplied to you by {{site.data.keyword.cloud_notm}} support. If you didn't receive this ID, contact [{{site.data.keyword.cloud_notm}} Support](/docs/support?topic=support-open-case).
 
 Use the following steps to access the installation guide after you log in to the Thales Support Portal.
 

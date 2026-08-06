@@ -13,6 +13,7 @@ toc:
   - navgroup:
       id: learn
       topics:
+      - topic: deprecation.md
       - about.md
       - link:
           label: About IBM Cloud HSM
