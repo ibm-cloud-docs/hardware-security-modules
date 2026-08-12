@@ -9,6 +9,7 @@ toc:
     product-page: "https://www.ibm.com/products/hardware-security-module"
     path: hardware-security-modules
     label: IBM Cloud Hardware Security Modules for Classic
+    release-level: deprecated
   entries:
   - navgroup:
       id: learn
