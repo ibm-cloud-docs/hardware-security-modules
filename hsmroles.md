@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-05-16"
+  years: 2014, 2026
+lastupdated: "2026-08-12"
 
 keywords: hardware security modules, HSM, HSM roles, HSM Security Officer, Partition Security Officer, Crypto Officer, Auditor, Crypto User, Appliance Admin, HSM Security Officer, Partition Security Officer, cryptographic, keys,
 
@@ -17,6 +17,9 @@ subcollection: hardware-security-modules
 
 The following sections outline the roles that access the {{site.data.keyword.cloud}} Hardware Security Module (HSM) and the cryptographic engine within or connected to the host.  
 {: shortdesc}
+
+If you’re an existing {{site.data.keyword.cloud}} Classic infrastructure Hardware Security Module (HSM) user, you can continue to use the service until it is no longer supported on 11 August 2027. Use Utimaco HSM to get our latest hardware security module service on {{site.data.keyword.cloud_notm}}. For migration information, see [Deprecation of IBM Cloud Classic infrastructure Hardware Security Module](/docs/hardware-security-modules?topic=hardware-security-modules-deprecation).
+{: deprecated}
 
 ## Mandatory roles
 {: #mandatory-roles}
